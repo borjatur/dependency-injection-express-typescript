@@ -1,0 +1,25 @@
+{
+  "name": "dependency-injection-express-typescript",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/.bin/jest",
+    "start": "./node_modules/.bin/ts-node src/index.ts"
+  },
+  "keywords": ["express", "dependency injection", "typescript", "inversion of control"],
+  "author": "borja.tur@gmail.com",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.17",
+    "@types/node": "^18.15.9",
+    "@types/jest": "^29.4.0",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.0.2",
+    "jest": "^29.4.2",
+    "ts-jest": "^29.0.5"
+  }
+}
