@@ -3,7 +3,8 @@ export interface IUserService {
 };
 
 export interface IUserRepository {
-  find: () => Promise<IUser[]>
+  find: () => Promise<IUser[]>,
+  save: (user: any) => Promise<IUser>
 };
 
 export interface IUser {

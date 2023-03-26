@@ -10,4 +10,8 @@ export class UserService implements IUserService {
   getUsers() {
     return this.usersRepository.find()
   };
+
+  saveUsers(user: any) {
+    return this.usersRepository.save(user)
+  }
 };
